@@ -8,9 +8,10 @@ on:
 jobs:
   helloworld:
     runs-on: ubuntu-latest
+    container:
+      image: alphine:latest
 
     steps:
       - name: print hellow
-        run: echo "hello world !!"
-      - name: print challo
         run: cat /etc/os-release  
+  
