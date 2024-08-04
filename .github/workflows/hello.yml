@@ -9,7 +9,7 @@ jobs:
   helloworld:
     runs-on: ubuntu-latest
     container:
-      image: alphine:latest
+      image: alpine:latest
 
     steps:
       - name: print hellow
