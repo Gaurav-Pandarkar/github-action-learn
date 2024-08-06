@@ -33,7 +33,7 @@ jobs:
         image: alpine:latest
        steps:
          - name: print maven version value across job
-           run: echo $JDK_VERSION
+           run: echo $MAVEN_VERSION
       
             
        
