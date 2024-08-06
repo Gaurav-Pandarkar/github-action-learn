@@ -26,5 +26,14 @@ jobs:
        steps:
          - name: print environment variable value
            run: echo $JDK_VERSION
+
+  print-maven-version:
+       runs-on: ubuntu-latest
+       container:
+        image: alpine:latest
+       steps:
+         - name: print maven version value across job
+           run: echo $JDK_VERSION
+      
             
        
