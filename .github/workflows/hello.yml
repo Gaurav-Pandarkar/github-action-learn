@@ -35,6 +35,7 @@ jobs:
        steps:
          - name: print maven version value across job
            run: echo $MAVEN_VERSION
+           
       
             
        
